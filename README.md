@@ -63,3 +63,21 @@ int main(void)
 ```
 
 ### 練習4
+```
+#include <stdio.h>
+
+int main(void)
+{
+  int i;
+  int array[10];
+
+  for (i=0; i<10; i++) {
+    scanf("%d",&array[i]);
+  }
+
+  for ( ? ;  ?  ; i--) {
+    printf("array[%d] = %d\n",i,array[i]);
+  }
+
+  return 0;
+}
