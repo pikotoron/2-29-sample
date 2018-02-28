@@ -26,8 +26,8 @@ int main(void)
 {
   int i,j; //ループ用カウント変数
 
-  for( ? ;  ?  ; i++) {
-    for( ? ;  ?  ; j++) {
+  for(i=1; i<=9; i++) {    //二重ループ
+    for( ? ;  ?  ; j++) {
       printf("%d ? ",i*j);
     }
     printf("\n");
